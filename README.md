@@ -197,13 +197,13 @@ Report and documentation can be found on this [Documentation](https://github.com
   * **cross_entropy(W, X, T, L2_lambda):** cacluating the loss in the model
   * **predict(W, X):** predicting the labels from the output of the model
 * **single_layer_NN_lib.py:**
-  * **create_single_hidden_layer_nn(number_hidden_units): create input layer,
+  * **create_single_hidden_layer_nn(number_hidden_units)**: create input layer,
 one hidden layer with specified number of neurons and output layer
 * **cnn_lib.py:**
   * **weight_init(shape):** Initialize weight variables
-  * **bias_init(shape): Initialize bias variables
-  * **convolution(x, W): convolves input with given weights and stride 1 and with zero padding
-  * **maxpool(x): performs max pooling on window size of 2x2 and stride of 2 with zero padding
+  * **bias_init(shape)**: Initialize bias variables
+  * **convolution(x, W)**: convolves input with given weights and stride 1 and with zero padding
+  * **maxpool(x)**: performs max pooling on window size of 2x2 and stride of 2 with zero padding
 * **USPS_data_extraction.py:**
   * **make_square(im):** To make the image with equal height and width
   * **extract_usps_data():** Get USPS test images and labels. Usps_test_images is a Nx784 numpy array and Usps_test_labels is Nx10 numpy array (one-hot representation)
@@ -222,10 +222,6 @@ one hidden layer with specified number of neurons and output layer
   * **make_square(im):** To make the image with equal height and width
   * **extract_usps_data():** Get USPS test images and labels. Usps_test_images is a Nx784 numpy array and Usps_test_labels is Nx10 numpy array (one-hot representation)
 
-## Contributors
-***
-  * [Jayant Solanki](https://github.com/jayantsolanki)
-  * [Swati S. Nair](https://github.com/swatishr)
   
 ## Instructor
 ***
